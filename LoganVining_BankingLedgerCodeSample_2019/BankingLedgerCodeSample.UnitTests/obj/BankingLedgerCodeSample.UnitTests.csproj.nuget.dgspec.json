@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj",
+        "projectName": "BankingLedgerCodeSample.UnitTests",
+        "projectPath": "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\llvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\llvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

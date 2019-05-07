@@ -1,0 +1,11 @@
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\bin\Debug\netcoreapp2.1\BankingLedgerCodeSample.deps.json
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\bin\Debug\netcoreapp2.1\BankingLedgerCodeSample.runtimeconfig.json
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\bin\Debug\netcoreapp2.1\BankingLedgerCodeSample.runtimeconfig.dev.json
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\bin\Debug\netcoreapp2.1\BankingLedgerCodeSample.dll
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\bin\Debug\netcoreapp2.1\BankingLedgerCodeSample.pdb
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\obj\Debug\netcoreapp2.1\BankingLedgerCodeSample.csprojAssemblyReference.cache
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\obj\Debug\netcoreapp2.1\BankingLedgerCodeSample.csproj.CoreCompileInputs.cache
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\obj\Debug\netcoreapp2.1\BankingLedgerCodeSample.AssemblyInfoInputs.cache
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\obj\Debug\netcoreapp2.1\BankingLedgerCodeSample.AssemblyInfo.cs
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\obj\Debug\netcoreapp2.1\BankingLedgerCodeSample.dll
+C:\Users\llvin\source\repos\BankingLedgerCodeSample\BankingLedgerCodeSample\obj\Debug\netcoreapp2.1\BankingLedgerCodeSample.pdb
