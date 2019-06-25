@@ -22,6 +22,37 @@ namespace BankingLedgerCodeSample
 {
     class UserBankAccount
     {
+        /*
+         * Simple nested class used to track the current user's history of transactions
+         */
+        class TransactionHistoryNode
+        {
+            private double amountForTransaction;                // Holds amount for current transaction
+            public double AmountForTransaction
+            {
+                get
+                {
+                    return this.amountForTransaction;
+                }
+            }
+
+            private char typeOfTransaction;                     // Holds whether the transaction was a deposit or withdrawal
+            public char TypeOfTransaction
+            {
+                get
+                {
+                    return this.typeOfTransaction;
+                }
+            }
+
+            public TransactionHistoryNode(double desiredTransactionAmount, char transactionType)
+            {
+                this.amountForTransaction = desiredTransactionAmount;
+                this.typeOfTransaction = transactionType;
+            }
+        }
+
+
         private string username;                                                                        //Holds the account username usable strictly within the account
 
         public string Username                                                                          //Publicly accessible getters and setters for the username
@@ -41,7 +72,7 @@ namespace BankingLedgerCodeSample
 
         //Dictionary that maps the deposit/withdrawal amount to a letter indicating if it was a deposit or withdrawal
         //Simple mechanism for printing the transaction history for this account
-        private readonly Dictionary<double, string> userTransactionHistory = new Dictionary<double, string>();
+        private readonly LinkedList<TransactionHistoryNode> userTransactionHistory = new LinkedList<TransactionHistoryNode>();
 
         private readonly MD5 hasher = MD5.Create();                                                     //Hasher that allows secure passwords to be stored
 
@@ -99,7 +130,7 @@ namespace BankingLedgerCodeSample
             if (Double.TryParse(userDepositInput, out double depositAmount))
             {
                 this.accountBalance += depositAmount;
-                userTransactionHistory.Add(depositAmount, "D");
+                userTransactionHistory.AddLast(new TransactionHistoryNode(depositAmount, 'D'));
                 Console.WriteLine("Your deposit was successfully made!");
                 Console.WriteLine();
             }
@@ -124,7 +155,7 @@ namespace BankingLedgerCodeSample
                 if (withdrawAmount <= this.accountBalance)
                 {
                     this.accountBalance -= withdrawAmount;
-                    userTransactionHistory.Add(withdrawAmount, "W");
+                    userTransactionHistory.AddLast(new TransactionHistoryNode(withdrawAmount, 'W'));
                     Console.WriteLine("Your withdrawal was successfully made!");
                     Console.WriteLine();
                 }
@@ -168,15 +199,15 @@ namespace BankingLedgerCodeSample
                 return;
             }
 
-            foreach (KeyValuePair<double, string> amountHistoryItem in userTransactionHistory)
+            foreach (TransactionHistoryNode currentTransaction in userTransactionHistory)
             {
-                if (amountHistoryItem.Value == "D")
+                if (currentTransaction.TypeOfTransaction == 'D')
                 {
-                    Console.WriteLine("Deposited ${0:0.00}", amountHistoryItem.Key);
+                    Console.WriteLine("Deposited ${0:0.00}", currentTransaction.AmountForTransaction);
                 }
-                else if (amountHistoryItem.Value == "W")
+                else if (currentTransaction.TypeOfTransaction == 'W')
                 {
-                    Console.WriteLine("Withdrew ${0:0.00}", amountHistoryItem.Key);
+                    Console.WriteLine("Withdrew ${0:0.00}", currentTransaction.AmountForTransaction);
                 }
             }
 

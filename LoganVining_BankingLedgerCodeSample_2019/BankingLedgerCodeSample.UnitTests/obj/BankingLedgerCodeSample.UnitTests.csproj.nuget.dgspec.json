@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj": {}
+    "C:\\Users\\llvin\\Desktop\\BankingLedgerCodeSample\\LoganVining_BankingLedgerCodeSample_2019\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj": {
+    "C:\\Users\\llvin\\Desktop\\BankingLedgerCodeSample\\LoganVining_BankingLedgerCodeSample_2019\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\llvin\\Desktop\\BankingLedgerCodeSample\\LoganVining_BankingLedgerCodeSample_2019\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj",
         "projectName": "BankingLedgerCodeSample.UnitTests",
-        "projectPath": "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj",
+        "projectPath": "C:\\Users\\llvin\\Desktop\\BankingLedgerCodeSample\\LoganVining_BankingLedgerCodeSample_2019\\BankingLedgerCodeSample.UnitTests\\BankingLedgerCodeSample.UnitTests.csproj",
         "packagesPath": "C:\\Users\\llvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\llvin\\source\\repos\\BankingLedgerCodeSample\\BankingLedgerCodeSample.UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\llvin\\Desktop\\BankingLedgerCodeSample\\LoganVining_BankingLedgerCodeSample_2019\\BankingLedgerCodeSample.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
